@@ -4,11 +4,11 @@
 #include <PubSubClient.h>
 
 // Wi-Fi credentials
-#define wifi_ssid "Redmi Note 10 Pro"
-#define wifi_password "12345676"
+#define wifi_ssid "my wifi"
+#define wifi_password "my password"
 
 // MQTT Broker details
-#define mqtt_server  "192.168.88.140"
+#define mqtt_server  "my ip address" // check it by typing    ipconfig    in cmd and chooseing IpV4 ip address
 #define Humidity_topic  "esp32/dht11/humidity"
 #define temperature_topic "esp32/DHT11/temperature"
 #define relay_topic "esp32/relay/status"
